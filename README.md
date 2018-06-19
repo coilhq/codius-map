@@ -2,6 +2,8 @@
 
 Some scripts to generate a map of Codius hosts.
 
+![Map of Codius hosts](screenshot.png)
+
 ## Install dependencies
 
 After cloning this repository, install the dependencies. (You need [Node.js](https://nodejs.org) v10.x.x or higher.)
