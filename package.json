@@ -1,0 +1,30 @@
+{
+  "name": "codius-map",
+  "version": "1.0.0",
+  "description": "Create a map of Codius hosts",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coilhq/codius-map.git"
+  },
+  "keywords": [
+    "codius",
+    "map",
+    "generate",
+    "visualization",
+    "location",
+    "geoip"
+  ],
+  "author": "Codius Team <info@codius.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/coilhq/codius-map/issues"
+  },
+  "homepage": "https://github.com/coilhq/codius-map#readme",
+  "dependencies": {
+    "geoip-lite": "^1.2.1"
+  }
+}
