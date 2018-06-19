@@ -8,7 +8,7 @@ const geo = {
   features: hosts.map(h => ({
     type: 'Feature',
     properties: {
-      name: h.host,
+      name: h.hostname,
       ip: h.ip
     },
     geometry: {
