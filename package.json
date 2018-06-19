@@ -2,10 +2,12 @@
   "name": "codius-map",
   "version": "1.0.0",
   "description": "Create a map of Codius hosts",
-  "main": "generate.js",
   "scripts": {
+    "build": "node generate.js && node to-geo-json.js",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coilhq/codius-map.git"
